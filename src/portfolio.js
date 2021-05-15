@@ -1,5 +1,3 @@
-import emoji from 'react-easy-emoji';
-
 import mdalogo from './assets/img/icons/common/mda.jpg'
 import tdlogo from './assets/img/icons/common/Toronto-Dominion_Bank_logo.svg'
 import bblogo from './assets/img/icons/common/bb.png'
