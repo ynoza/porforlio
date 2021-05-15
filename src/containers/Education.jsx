@@ -14,11 +14,11 @@ const Edution = () => {
                 <div className="d-flex px-3">
                     <div>
                         <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
-                        <i className="ni ni-books text-info" />
+                        <i className="ni ni-books text-default" />
                         </div>
                     </div>
                     <div className="pl-4">
-                        <h4 className="display-3 text-blue">Education</h4>
+                        <h4 className="display-3">Education</h4>
                     </div>
                 </div>
                 <Row className="row-grid align-items-center">

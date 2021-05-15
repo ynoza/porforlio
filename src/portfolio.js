@@ -107,22 +107,24 @@ export const educationInfo = [
       schoolName: 'University of Waterloo',
       subHeader: 'Bachelors of Computer Science',
       duration: 'September 2018 - April 2023',
-      desc: '3.9 GPA, Courses in:',
+      desc: 'GPA: 3.9, Courses in:',
       descBullets: [
-        '',
-        '',
-      ],
+        'Data Structures, Algorithms, Object-Oriented Programming, UI, AI, Databases',
+        'Sequential Programs, Software Architecture, OS',
+        'Graph Theory, Combinatorics',
+      ]
     },
     {
       schoolName: 'Wilfrid Laurier University',
       subHeader: 'Bachelors of Business Administration - Finance',
       duration: 'September 2018 - April 2023',
-      desc: '11 (/12) GPA, Courses in:',
+      desc: 'GPA: 11/12, Courses in:',
       descBullets: [
-        '',
-        '',
-      ],
-    },
+        "Financial Management, Financial Accounting, Management Accounting",
+        'Microeconomics, Macroeconomics, Entrepreneurship',
+        'Project Management'
+      ]
+    }
 ]
 
 export const experience = [
