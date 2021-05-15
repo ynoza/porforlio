@@ -2,11 +2,24 @@ import mdalogo from './assets/img/icons/common/mda.jpg'
 import tdlogo from './assets/img/icons/common/Toronto-Dominion_Bank_logo.svg'
 import bblogo from './assets/img/icons/common/bb.png'
 
+import twentyfourtyeightimg from './assets/img/OP.gif';
+import leetcode from './assets/img/leetcode.JPG';
+import biquad from './assets/img/biquad.jpg';
+import covidFree from './assets/img/covidFree.gif';
+import interactive from './assets/img/interactive.gif';
+import picster from './assets/img/picster.jpg';
+import sfl from './assets/img/sfl.gif';
+import traf from './assets/img/traf.jpg';
+import nlp from './assets/img/nlp.jpg';
+import minesweep from './assets/img/minesweep.jpg';
+
+import resume from './assets/pdf/Resume_Yash_Oza.pdf'
+
 export const greetings = {
     "name": "Yash Oza",
     "title": "Here's a little bit about me:",
     "description": "I'm a Fourth year CS/BBA Double Degree student at the University of Waterloo and Wilfrid Laurier University with a passion for Entrepreneurship and an interest in Machine Learning and Full Stack Development. I'm also from Toronto, which means I listen to Drake, love snow (but ironicly count the days for winter to end), and loathe the traffic on the Gardener Express Way.",
-    "resumeLink": 'https://ynoza.github.io/PDFs/Resume_Yash_Oza.pdf'
+    "resumeLink": resume
 }
 
 export const openSource = {
@@ -212,6 +225,7 @@ export const projects = [
     name: "Picster",
     desc: "An Image Respository that has a Tensoflow Image Classifier running in the server so that uploaded Images can be auto tagged and searches on the images can be made in real time.",
     stack: "Nodejs, MySQL, TypeScript, Angular, TensorFlow, JavaScript, Heroku",
+    logo: picster,
     link: {
       name: "Picster",
       url: "https://ynoza.github.io/Picster/"
@@ -225,6 +239,7 @@ export const projects = [
     name: "covidFree",
     desc: "A Dashboard that allows employers to monitor a given employees temperature fluctuations and determine whether or not they pose a threat to anyone's wellbeing (as a result of covid-19). It was designed to be integrated into day to day lives by being able to collect temperature data in a seamless manner, through devices such as an AirPod, which could track your temperature effortlessly while you're listening to your favorite song.",
     stack: "Firebase, AWS, Raspberry Pi, React, JavaScript",
+    logo: covidFree,
     link: {
       name: "covidFree",
       url: "https://ynoza.github.io/covidFree/"
@@ -238,6 +253,7 @@ export const projects = [
     name: "Software For Love (SFL)",
     desc: "SFL in a non-profit organization that helps local businesses with thier software needs in exchange for charitable donations. Here's SFL's website and Ubionic's website for which I was the lead developer.",
     stack: "Netlify, React, JavaScript",
+    logo: sfl,
     link: {
       name: "SFL",
       url: "https://www.softwareforlove.com/"
@@ -255,6 +271,7 @@ export const projects = [
     name: "Interactive Website",
     desc: "My old Portfolio! I tried having a little bit of fun with it. There's some mystic gold interactive-snow falling from the 'sky' onto 'The Vessel' just how I remember it.",
     stack: "JavaScript, HTML5, CSS",
+    logo: interactive,
     link: {
       name: "Interactive Website",
       url: "https://ynoza.github.io/interactiveWebsite/"
@@ -268,6 +285,7 @@ export const projects = [
     name: "Biquadris",
     desc: "Biquadris, is a Latinization of the game Tetris. In this case, it is expanded for a two player competition. The game has been designed to accomodate for various levels of difficulty and speed.",
     stack: "C++, Xming",
+    logo: biquad,
     github: {
       name: "Github",
       url: "https://github.com/ynoza/Biquadris"
@@ -277,6 +295,7 @@ export const projects = [
     name: "2048",
     desc: "A modified version of 2048 with themed gif tiles and easier Gameplay.",
     stack: "Java",
+    logo: twentyfourtyeightimg,
     github: {
       name: "Github",
       url: "https://github.com/ynoza/2048-Applet"
@@ -286,6 +305,7 @@ export const projects = [
     name: "NLP Question Answerer",
     desc: "A Question Answering system based on inverse document frequency similar to asking Siri a question, but limited to the documents given to determine answers.",
     stack: "Python, IDF",
+    logo: nlp,
     github: {
       name: "Github",
       url: "https://github.com/ynoza/Question-Answering"
@@ -295,6 +315,7 @@ export const projects = [
     name: "Minesweeper AI",
     desc: "Built using Pygame, uses Propositional Logic to create knowledge-based agents to make inferences about the position of mines and determine safe moves.",
     stack: "Python, PyGame",
+    logo: minesweep,
     github: {
       name: "Github",
       url: "https://github.com/ynoza/Minesweeper-AI"
@@ -304,6 +325,7 @@ export const projects = [
     name: "Traffic Computer Vision",
     desc: "This project creates a model using neural network layers to distinguish and identify street signs. To do this, the project took use of the German Traffic Sign Recognition Benchmark, which contains over 150,000 images of 43 common street signs. In the end it was able to distingush signs with 98% accuracy.",
     stack: "Python, TensorFlow, Keras, scikit-learn",
+    logo: traf,
     github: {
       name: "Github",
       url: "https://github.com/ynoza/Traffic"
@@ -311,8 +333,9 @@ export const projects = [
   },
   {
     name: "Leetcode",
-    desc: "A selection of the problems I've solved since Febuary 2021. Competitive programming is one of my hobbies, I love a good problem that takes me hours to figure out.",
+    desc: "Competitive programming is one of my more recent hobbies that I got into Feburary 2021 (over the lockdown). I never miss the daily challenge! The picture is of April 2021.",
     stack: "Python, C++, Java, TypeScript",
+    logo: leetcode,
     link: {
       name: "Leetcode",
       url: "https://leetcode.com/yoshimario14/"
