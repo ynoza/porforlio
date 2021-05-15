@@ -138,7 +138,7 @@ export const SkillBars = [
       progressPercentage: 'I love swimming, playing cricket, and competitive programming in my free time. The last one is something that I recently got into thanks to the lockdown.',
     },
     {
-      Stack: "What's your favourite song by Drake?",
+      Stack: "What's your favourite Drake song?",
       progressPercentage: "I would have to say that its Marvin's Room. But recently I've been listening to Wants and Needs a lot.",
     },
   ]

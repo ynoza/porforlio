@@ -17,7 +17,7 @@ const Proficiency = () => {
     return ( 
         <Container className="section section-lg">
            <Fade bottom duration={1000} distance="40px">
-                <h1 className="text-darker">FAQ</h1>
+                <h1 className="text-darker text-center">FAQ</h1>
                 {
                     SkillBars.map(skill => {
                         return <div className="progress-info" key={skill.Stack}>
