@@ -1,8 +1,8 @@
 import emoji from 'react-easy-emoji';
 
-import googlelogo from './assets/img/icons/common/google.svg'
-import github from './assets/img/icons/common/github.svg'
-import airbnb from './assets/img/icons/common/airbnbLogo.png'
+import mdalogo from './assets/img/icons/common/mda.jpg'
+import tdlogo from './assets/img/icons/common/Toronto-Dominion_Bank_logo.svg'
+import bblogo from './assets/img/icons/common/bb.png'
 
 export const greetings = {
     "name": "Yash Oza",
@@ -130,11 +130,40 @@ export const educationInfo = [
 export const experience = [
   {
     role: 'Software Engineer',
-    company: '',
-    companylogo: googlelogo,
-    date: 'June 2018 – Present',
-    desc: '',
+    company: 'MDA',
+    companylogo: mdalogo,
+    date: 'January 2021 – April 2021',
+    desc: 'Worked on the TRITON Project, a real time tracking & management software for ships and other vessels, for NATO.',
     descBullets: [
+      'Typescript, Java',
+      'Angular, Nodejs, Spring Boot, Microservices',
+      'Docker, Kubernetes',
+      'Git, Jira, Confluence'
+    ],
+  },
+  {
+    role: 'Software Engineer',
+    company: 'QNX Software Systems - Blackberry Limited',
+    companylogo: bblogo,
+    date: 'January 2020 – April 2020',
+    desc: 'Developed & Designed a REST API reservation system in Django and a toolchain API to access the system through the command line.',
+    descBullets: [
+      'Python, Javascript, C, SQL, Bash',
+      'Django',
+      'Docker',
+      'Git, Jira, Confluence'
+    ],
+  },
+  {
+    role: 'DevOps Analyst',
+    company: 'TD Securities',
+    companylogo: tdlogo,
+    date: 'May 2019 – August 2019',
+    desc: 'Automated data scraping in the production environment, batch-job failure detection in the UAT environment, and spreadsheet population, analysis, and deployment.',
+    descBullets: [
+      'Bash, VBA',
+      'Excel',
+      'Jira, Confluence'
     ],
   },
 ]

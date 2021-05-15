@@ -42,7 +42,6 @@ const ExperienceCard = ({data}) => {
                         {data.desc}
                         <ul>
                             {
-                                
                                 data.descBullets.map((desc) => {
                                     return <li key={desc}>{desc}</li>
                                 }) 
