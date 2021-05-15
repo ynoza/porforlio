@@ -15,18 +15,19 @@ const EdutionCard = ({education}) => {
                 <CardBody>
                     <div className="d-flex px-3">
                     <div className="pl-4">
-                        <h5 className="text-default">
-                        {education.schoolName}
+                        <h4 className="text-default">
+                            {education.schoolName}
+                        </h4>
+                        <h5 className="text-darker">
+                            {education.subHeader}
                         </h5>
-                        <h6>{education.subHeader}</h6>
                         <Badge color="default" className="mr-1">
                         {education.duration}
                     </Badge>
-                        <p className="description mt-3">
+                        <p className="text-darker mt-3">
                             {education.desc}
-                            <ul>
+                            <ul className="text-darker">
                             {
-                                
                                 education.descBullets.map((desc) => {
                                     return <li key={desc}>{desc}</li>
                                 }) 

@@ -9,7 +9,7 @@ import {
 
 const Edution = () => {
     return ( 
-        <section className="section pb-0  my-5">
+        <section className="section pb-15 bg-gradient-darker my-5">
             <Container>
                 <div className="d-flex px-3">
                     <div>
@@ -18,7 +18,7 @@ const Edution = () => {
                         </div>
                     </div>
                     <div className="pl-4">
-                        <h4 className="display-3">Education</h4>
+                        <h4 className="display-3 text-white">Education</h4>
                     </div>
                 </div>
                 <Row className="row-grid align-items-center">
@@ -29,7 +29,7 @@ const Edution = () => {
                     }
                 </Row>
             </Container>
-            {/* <div className="separator separator-bottom separator-skew zindex-100">
+            <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
@@ -43,7 +43,7 @@ const Edution = () => {
                   points="2560 0 2560 100 0 100"
                 />
               </svg>
-            </div> */}
+            </div>
           </section>
      );
 }

@@ -120,7 +120,7 @@ export const educationInfo = [
       duration: 'September 2018 - April 2023',
       desc: 'GPA: 11/12, Courses in:',
       descBullets: [
-        "Financial Management, Financial Accounting, Management Accounting",
+        "Financial Management, Accounting",
         'Microeconomics, Macroeconomics, Entrepreneurship',
         'Project Management'
       ]
