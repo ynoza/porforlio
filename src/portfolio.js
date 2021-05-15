@@ -8,7 +8,7 @@ export const greetings = {
     "name": "Yash Oza",
     "title": "Here's a little bit about me:",
     "description": "I'm a Fourth year CS/BBA Double Degree student at the University of Waterloo and Wilfrid Laurier University with a passion for Entrepreneurship and an interest in Machine Learning and Full Stack Development. I'm also from Toronto, which means I listen to Drake, love snow (but ironicly count the days for winter to end), and loathe the traffic on the Gardener Express Way.",
-    "resumeLink": "ynoza.github.io/public/resume.pdf"
+    "resumeLink": 'https://ynoza.github.io/PDFs/Resume_Yash_Oza.pdf'
 }
 
 export const openSource = {
