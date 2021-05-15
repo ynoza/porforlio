@@ -170,11 +170,104 @@ export const experience = [
 
 export const projects = [
   {
-    name: "",
+    name: "Picster",
+    desc: "An Image Respository that has a Tensoflow Image Classifier running in the server so that the uploaded Images can be auto tagged and searches on the images can be made in real time.",
+    stack: "Nodejs, MySQL, TypeScript, Angular, TensorFlow, JavaScript",
+    link: {
+      name: "Picster",
+      url: "https://ynoza.github.io/Picster/"
+    },
+    github: {
+      name: "Github",
+      url: "https://github.com/ynoza/Picster/"
+    }
+  },
+  {
+    name: "Interactive Website",
+    desc: "My old Portfolio! I tried having a little bit of fun with it. There's some mystic gold interactive-snow falling from the 'sky' onto 'The Vessel' just how I remember it. This interactive animation was done with Javascript and was inspired by the CodeVault project.",
+    stack: "JavaScript, HTML5, CSS",
+    link: {
+      name: "Interactive Website",
+      url: "https://ynoza.github.io/interactiveWebsite/"
+    },
+    github: {
+      name: "Github",
+      url: "https://github.com/ynoza/interactiveWebsite"
+    }
+  },
+  {
+    name: "covidFree",
+    desc: "This project will help reduce the mental fear of catching the worrisome COVID-19 virus because employers can now monitor a given employees temperature fluctuations and determine whether or not they pose a threat to anyone's wellbeing. It was designed to be easily integrated into their day to day lives by collecting the temperature data in a seamless manner, through devices such as an AirPod, which can track your temperature effortlessly while you're listening to your favorite song.",
+    stack: "Firebase, AWS, Raspberry Pi, React, JavaScript",
+    link: {
+      name: "covidFree",
+      url: "https://ynoza.github.io/covidFree/"
+    },
+    github: {
+      name: "Github",
+      url: "https://github.com/ynoza/covidFree/"
+    }
+  },
+  ,
+  {
+    name: "SFL",
+    desc: "SFL in a non-profit organisation that helps local businesses with thier software needs in exchange for charitable donations.",
+    stack: "Firebase, AWS, Raspberry Pi, React, JavaScript",
+    link: {
+      name: "covidFree",
+      url: "https://ynoza.github.io/covidFree/"
+    },
+    github: {
+      name: "Github",
+      url: "https://github.com/ynoza/covidFree/"
+    }
+  },
+  {
+    name: "Biquadris",
     desc: "",
     link: {
       name: "Yash",
       url: ""
     }
-  }
+  },
+  {
+    name: "2048",
+    desc: "",
+    link: {
+      name: "Yash",
+      url: ""
+    }
+  },
+  {
+    name: "NLP Question Answerer",
+    desc: "",
+    link: {
+      name: "Yash",
+      url: ""
+    }
+  },
+  {
+    name: "Minesweeper AI",
+    desc: "",
+    link: {
+      name: "Yash",
+      url: ""
+    }
+  },
+  {
+    name: "Traffic Computer Vision",
+    desc: "",
+    link: {
+      name: "Yash",
+      url: ""
+    }
+  },
+  {
+    name: "Leetcode",
+    desc: "",
+    link: {
+      name: "Yash",
+      url: ""
+    }
+  },
 ]
