@@ -126,16 +126,20 @@ export const skillsSection = {
 
 export const SkillBars = [
     {
-      Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-      progressPercentage: '90', //Insert relative proficiency in percentage
+      Stack: 'What is Double Degree and how is it possible?', //Insert stack or technology you have experience in
+      progressPercentage: 'The CS/BBA double Degree program allows students to work towards two 4 year degrees simultaneously and finish them together in 5 years. This is able to occur due to a lot of prerequisites overlaping between the degrees, and students taking 6 courses per semester (sometimes 7) as opposed to 4-5.', //Insert relative proficiency in percentage
     },
     {
-      Stack: 'Backend',
-      progressPercentage: '70',
+      Stack: 'Why 2 degrees?', //Insert stack or technology you have experience in
+      progressPercentage: 'At heart I am a Software Engineer, but I have always appreciated the importance of the internal and external business factors that drive a company. I feel like that knowledge allows me to view things differently and lets me make more informed decisions. Also I one day hope to get into management, and I know a business degree would be crucial for that.'
     },
     {
-      Stack: 'Programming',
-      progressPercentage: '60',
+      Stack: 'What do you like to do in your free time?',
+      progressPercentage: 'I love swimming, playing cricket, and competitive programming in my free time. The last one is something that I recently got into thanks to the lockdown.',
+    },
+    {
+      Stack: "What's your favourite song by Drake?",
+      progressPercentage: "I would have to say that its Marvin's Room. But recently I've been listening to Wants and Needs a lot.",
     },
   ]
 

@@ -17,27 +17,21 @@ const Proficiency = () => {
     return ( 
         <Container className="section section-lg">
            <Fade bottom duration={1000} distance="40px">
-            <Row>
-                    <Col lg="6">
-                        <h1 className="h1">Proficiency</h1>
-                        {
-                            SkillBars.map(skill => {
-                                return <div className="progress-info" key={skill.Stack}>
-                                            <div className="progress-label">
-                                            <span>{skill.Stack}</span>
-                                            </div>
-                                            <div className="progress-percentage">
-                                            <span>{skill.progressPercentage}%</span>
-                                            </div>
-                                            <Progress max="100" value={skill.progressPercentage} color="info" />
-                                        </div>
-                            })
-                        }
-                    </Col>
-                    <Col lg="6">
-                        <GreetingLottie animationData={build}/>
-                    </Col>
-                </Row>
+                <h1 className="text-darker">FAQ</h1>
+                {
+                    SkillBars.map(skill => {
+                        return <div className="progress-info" key={skill.Stack}>
+                                    <div className="progress-label">
+                                        <span>Q. {skill.Stack}</span>
+                                    </div>
+                                    <div className="description text-darker">
+                                        <span>A. {skill.progressPercentage}</span>
+                                    </div>
+                                    <br></br>
+                                </div>
+
+                    })
+                }
            </Fade>
         </Container>
      );
