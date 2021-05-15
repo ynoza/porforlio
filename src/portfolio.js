@@ -27,62 +27,99 @@ export const socialLinks = {
 
 export const skillsSection = {
     title: "What I'm good with",
-    skills: [
-    ],
-    
-    softwareSkills: [
+    languageTitle: "Languages",
+    frameworkTitle: "Frameworks & Technologies",
+    languageskills: [
       {
-        skillName: 'html-5',
-        fontAwesomeClassname: 'vscode-icons:file-type-html',
+        skillName: 'Python',
+        fontAwesomeClassname: 'logos:python',
       },
       {
-        skillName: 'css3',
-        fontAwesomeClassname: 'vscode-icons:file-type-css',
+        skillName: 'Java',
+        fontAwesomeClassname: 'logos:java',
       },
       {
-        skillName: 'JavaScript',
-        fontAwesomeClassname: 'logos:javascript',
+        skillName: "C-Plus-Plus",
+        fontAwesomeClassname: 'logos:c-plusplus',
       },
       {
-        skillName: 'TypeScript',
-        fontAwesomeClassname: 'logos:typescript-icon',
-      },
-      {
-        skillName: 'reactjs',
-        fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
-      },
-      {
-        skillName: 'nodejs',
-        fontAwesomeClassname: 'logos:nodejs-icon',
+        skillName: 'C',
+        fontAwesomeClassname: 'logos:c',
       },
       {
         skillName: 'sql-database',
         fontAwesomeClassname: 'vscode-icons:file-type-sql',
       },
       {
-        skillName: 'mongoDB',
-        fontAwesomeClassname: 'vscode-icons:file-type-mongo',
+        skillName: 'TypeScript',
+        fontAwesomeClassname: 'logos:typescript-icon',
       },
       {
-        skillName: 'aws',
+        skillName: 'JavaScript',
+        fontAwesomeClassname: 'logos:javascript',
+      },
+      {
+        skillName: 'Bash',
+        fontAwesomeClassname: 'logos:bash',
+      },
+      {
+        skillName: 'Html-5',
+        fontAwesomeClassname: 'vscode-icons:file-type-html',
+      },
+      {
+        skillName: 'CSS3',
+        fontAwesomeClassname: 'vscode-icons:file-type-css',
+      },
+    ],
+    frameworkskills: [
+      {
+        skillName: 'AWS',
         fontAwesomeClassname: 'logos:aws',
       },
       {
-        skillName: 'firebase',
+        skillName: 'Firebase',
         fontAwesomeClassname: 'logos:firebase',
       },
       {
-        skillName: 'python',
-        fontAwesomeClassname: 'logos:python',
-      },
-      {
-        skillName: 'git',
-        fontAwesomeClassname: 'logos:git-icon',
-      },
-      {
-        skillName: 'docker',
+        skillName: 'Docker',
         fontAwesomeClassname: 'logos:docker-icon',
       },
+      {
+        skillName: 'Kubernetes',
+        fontAwesomeClassname: 'logos:kubernetes',
+      },
+      {
+        skillName: 'Angular',
+        fontAwesomeClassname: 'logos:angular-icon',
+      },
+      {
+        skillName: 'Nodejs',
+        fontAwesomeClassname: 'logos:nodejs-icon',
+      },
+      {
+        skillName: 'Reactjs',
+        fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
+      },
+      {
+        skillName: 'Django',
+        fontAwesomeClassname: 'logos:django-icon',
+      },
+      {
+        skillName: 'Tensorflow',
+        fontAwesomeClassname: 'logos:tensorflow',
+      },
+      {
+        skillName: 'Keras',
+        fontAwesomeClassname: 'simple-icons:keras',
+      },
+      {
+        skillName: 'Spring-Boot',
+        fontAwesomeClassname: 'bx:bxl-spring-boot',
+      },
+      {
+        skillName: 'Git',
+        fontAwesomeClassname: 'logos:git-icon',
+      }
     ],
 }
 
