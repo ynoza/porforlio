@@ -1,13 +1,9 @@
 import React, {Fragment} from 'react';
 
 import { Fade } from 'react-reveal';
-import DisplayLottie from '../components/DisplayLottie'
-import webdev from '../assets/lottie/webdev.json';
 
 import {
     Container,
-    Row,
-    Col,
     UncontrolledTooltip
 } from "reactstrap";
 
@@ -17,7 +13,7 @@ const Skills = () => {
     return ( 
         <Fade left duration={1000} distance="40px">
             <Container className="text-center my-5 section section-lg">
-            <h1 className="h1">{skillsSection.title}</h1>
+            <h1 className="text-darker">{skillsSection.title}</h1>
             <p className="lead">{skillsSection.languageTitle}</p>
             <div className="d-flex justify-content-center flex-wrap mb-5">
                 {
