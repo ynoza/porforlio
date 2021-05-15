@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/porforlio/static/css/main.1681b668.chunk.css",
-    "main.js": "/porforlio/static/js/main.54981089.chunk.js",
-    "main.js.map": "/porforlio/static/js/main.54981089.chunk.js.map",
+    "main.js": "/porforlio/static/js/main.f31c2a6d.chunk.js",
+    "main.js.map": "/porforlio/static/js/main.f31c2a6d.chunk.js.map",
     "runtime-main.js": "/porforlio/static/js/runtime-main.0353ad9a.js",
     "runtime-main.js.map": "/porforlio/static/js/runtime-main.0353ad9a.js.map",
-    "static/js/2.fc61d6a9.chunk.js": "/porforlio/static/js/2.fc61d6a9.chunk.js",
-    "static/js/2.fc61d6a9.chunk.js.map": "/porforlio/static/js/2.fc61d6a9.chunk.js.map",
+    "static/js/2.b8ecb1b0.chunk.js": "/porforlio/static/js/2.b8ecb1b0.chunk.js",
+    "static/js/2.b8ecb1b0.chunk.js.map": "/porforlio/static/js/2.b8ecb1b0.chunk.js.map",
     "index.html": "/porforlio/index.html",
     "static/css/main.1681b668.chunk.css.map": "/porforlio/static/css/main.1681b668.chunk.css.map",
-    "static/js/2.fc61d6a9.chunk.js.LICENSE.txt": "/porforlio/static/js/2.fc61d6a9.chunk.js.LICENSE.txt",
+    "static/js/2.b8ecb1b0.chunk.js.LICENSE.txt": "/porforlio/static/js/2.b8ecb1b0.chunk.js.LICENSE.txt",
     "static/media/Navigation.css": "/porforlio/static/media/Agustina.320d237b.otf",
     "static/media/Toronto-Dominion_Bank_logo.3fa0d737.svg": "/porforlio/static/media/Toronto-Dominion_Bank_logo.3fa0d737.svg",
     "static/media/font-awesome.min.css": "/porforlio/static/media/fontawesome-webfont.f691f37e.woff",
@@ -17,8 +17,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0353ad9a.js",
-    "static/js/2.fc61d6a9.chunk.js",
+    "static/js/2.b8ecb1b0.chunk.js",
     "static/css/main.1681b668.chunk.css",
-    "static/js/main.54981089.chunk.js"
+    "static/js/main.f31c2a6d.chunk.js"
   ]
 }
