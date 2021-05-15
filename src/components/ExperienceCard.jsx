@@ -34,11 +34,11 @@ const ExperienceCard = ({data}) => {
                 <CardHeader style={{background: rgb(colorArrays)}} >
                     <h5 className="text-white">{data.company}</h5>
                 </CardHeader>
-                <CardBody className="py-5">
+                <CardBody className="py-5 text-darker">
                     <img ref={imgRef} className=" bg-white rounded-circle mb-3 img-center img-fluid shadow-lg " top src={data.companylogo} style={{ width: "100px" }} onLoad={() => getColorArrays()} alt=""/>
-                    <CardTitle tag="h5">{data.role}</CardTitle>
-                    <CardSubtitle>{data.date}</CardSubtitle>
-                    <CardText className="description my-3 text-left">
+                    <CardTitle tag="h4">{data.role}</CardTitle>
+                    <CardSubtitle tag="h6">{data.date}</CardSubtitle>
+                    <CardText className="my-3 text-left">
                         {data.desc}
                         <ul>
                             {
