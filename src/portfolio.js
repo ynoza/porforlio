@@ -171,8 +171,8 @@ export const experience = [
 export const projects = [
   {
     name: "Picster",
-    desc: "An Image Respository that has a Tensoflow Image Classifier running in the server so that the uploaded Images can be auto tagged and searches on the images can be made in real time.",
-    stack: "Nodejs, MySQL, TypeScript, Angular, TensorFlow, JavaScript",
+    desc: "An Image Respository that has a Tensoflow Image Classifier running in the server so that uploaded Images can be auto tagged and searches on the images can be made in real time.",
+    stack: "Nodejs, MySQL, TypeScript, Angular, TensorFlow, JavaScript, Heroku",
     link: {
       name: "Picster",
       url: "https://ynoza.github.io/Picster/"
@@ -183,8 +183,38 @@ export const projects = [
     }
   },
   {
+    name: "covidFree",
+    desc: "A Dashboard that allows employers to monitor a given employees temperature fluctuations and determine whether or not they pose a threat to anyone's wellbeing (as a result of covid-19). It was designed to be integrated into day to day lives by being able to collect temperature data in a seamless manner, through devices such as an AirPod, which could track your temperature effortlessly while you're listening to your favorite song.",
+    stack: "Firebase, AWS, Raspberry Pi, React, JavaScript",
+    link: {
+      name: "covidFree",
+      url: "https://ynoza.github.io/covidFree/"
+    },
+    github: {
+      name: "Github",
+      url: "https://github.com/ynoza/covidFree/"
+    }
+  },
+  {
+    name: "Software For Love (SFL)",
+    desc: "SFL in a non-profit organization that helps local businesses with thier software needs in exchange for charitable donations. Here's SFL's website and Ubionic's website for which I was the lead developer.",
+    stack: "Netlify, React, JavaScript",
+    link: {
+      name: "SFL",
+      url: "https://www.softwareforlove.com/"
+    },
+    secondarylink: {
+      name: "Ubionics",
+      url: ""
+    },
+    github: {
+      name: "Github",
+      url: "https://github.com/Software-For-Love"
+    }
+  },
+  {
     name: "Interactive Website",
-    desc: "My old Portfolio! I tried having a little bit of fun with it. There's some mystic gold interactive-snow falling from the 'sky' onto 'The Vessel' just how I remember it. This interactive animation was done with Javascript and was inspired by the CodeVault project.",
+    desc: "My old Portfolio! I tried having a little bit of fun with it. There's some mystic gold interactive-snow falling from the 'sky' onto 'The Vessel' just how I remember it.",
     stack: "JavaScript, HTML5, CSS",
     link: {
       name: "Interactive Website",
@@ -196,78 +226,61 @@ export const projects = [
     }
   },
   {
-    name: "covidFree",
-    desc: "This project will help reduce the mental fear of catching the worrisome COVID-19 virus because employers can now monitor a given employees temperature fluctuations and determine whether or not they pose a threat to anyone's wellbeing. It was designed to be easily integrated into their day to day lives by collecting the temperature data in a seamless manner, through devices such as an AirPod, which can track your temperature effortlessly while you're listening to your favorite song.",
-    stack: "Firebase, AWS, Raspberry Pi, React, JavaScript",
-    link: {
-      name: "covidFree",
-      url: "https://ynoza.github.io/covidFree/"
-    },
-    github: {
-      name: "Github",
-      url: "https://github.com/ynoza/covidFree/"
-    }
-  },
-  ,
-  {
-    name: "SFL",
-    desc: "SFL in a non-profit organisation that helps local businesses with thier software needs in exchange for charitable donations.",
-    stack: "Firebase, AWS, Raspberry Pi, React, JavaScript",
-    link: {
-      name: "covidFree",
-      url: "https://ynoza.github.io/covidFree/"
-    },
-    github: {
-      name: "Github",
-      url: "https://github.com/ynoza/covidFree/"
-    }
-  },
-  {
     name: "Biquadris",
-    desc: "",
-    link: {
-      name: "Yash",
-      url: ""
+    desc: "Biquadris, is a Latinization of the game Tetris. In this case, it is expanded for a two player competition. The game has been designed to accomodate for various levels of difficulty and speed.",
+    stack: "C++, Xming",
+    github: {
+      name: "Github",
+      url: "https://github.com/ynoza/Biquadris"
     }
   },
   {
     name: "2048",
-    desc: "",
-    link: {
-      name: "Yash",
-      url: ""
+    desc: "A modified version of 2048 with themed gif tiles and easier Gameplay.",
+    stack: "Java",
+    github: {
+      name: "Github",
+      url: "https://github.com/ynoza/2048-Applet"
     }
   },
   {
     name: "NLP Question Answerer",
-    desc: "",
-    link: {
-      name: "Yash",
-      url: ""
+    desc: "A Question Answering system based on inverse document frequency similar to asking Siri a question, but limited to the documents given to determine answers.",
+    stack: "Python, IDF",
+    github: {
+      name: "Github",
+      url: "https://github.com/ynoza/Question-Answering"
     }
   },
   {
     name: "Minesweeper AI",
-    desc: "",
-    link: {
-      name: "Yash",
-      url: ""
+    desc: "Built using Pygame, uses Propositional Logic to create knowledge-based agents to make inferences about the position of mines and determine safe moves.",
+    stack: "Python, PyGame",
+    github: {
+      name: "Github",
+      url: "https://github.com/ynoza/Minesweeper-AI"
     }
   },
   {
     name: "Traffic Computer Vision",
-    desc: "",
-    link: {
-      name: "Yash",
-      url: ""
+    desc: "This project creates a model using neural network layers to distinguish and identify street signs. To do this, the project took use of the German Traffic Sign Recognition Benchmark, which contains over 150,000 images of 43 common street signs. In the end it was able to distingush signs with 98% accuracy.",
+    stack: "Python, TensorFlow, Keras, scikit-learn",
+    github: {
+      name: "Github",
+      url: "https://github.com/ynoza/Traffic"
     }
   },
   {
     name: "Leetcode",
-    desc: "",
+    desc: "A selection of the problems I've solved since Febuary 2021. Competitive programming is one of my hobbies, I love a good problem that takes me hours to figure out.",
+    stack: "Python, C++, Java, TypeScript",
     link: {
-      name: "Yash",
-      url: ""
+      name: "Leetcode",
+      url: "https://leetcode.com/yoshimario14/"
+    },
+    github: {
+      name: "Github",
+      url: "https://github.com/ynoza/Leetcode"
     }
   },
 ]

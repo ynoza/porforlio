@@ -47,6 +47,22 @@ const ProjectsCard = ({data}) => {
                         </Button> : null
                     }
                     {
+                        data.secondarylink ? 
+                        <Button
+                            className="btn-neutral btn-icon"
+                            color="primary"
+                            href={data.secondarylink.url}
+                            target="_blank"
+                            >
+                            <span className="btn-inner--icon text-default">
+                                <i className="fa fa-arrow-right mr-2" />
+                            </span>
+                            <span className="nav-link-inner--text text-default ml-1">
+                                {data.secondarylink.name} 
+                            </span>
+                        </Button> : null
+                    }
+                    {
                         data.github ? 
                         <Button
                             className="btn-neutral btn-icon"
