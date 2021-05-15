@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/porfolio/static/css/main.010da98a.chunk.css",
+    "main.js": "/porfolio/static/js/main.54981089.chunk.js",
+    "main.js.map": "/porfolio/static/js/main.54981089.chunk.js.map",
+    "runtime-main.js": "/porfolio/static/js/runtime-main.8b6795ea.js",
+    "runtime-main.js.map": "/porfolio/static/js/runtime-main.8b6795ea.js.map",
+    "static/js/2.fc61d6a9.chunk.js": "/porfolio/static/js/2.fc61d6a9.chunk.js",
+    "static/js/2.fc61d6a9.chunk.js.map": "/porfolio/static/js/2.fc61d6a9.chunk.js.map",
+    "index.html": "/porfolio/index.html",
+    "static/css/main.010da98a.chunk.css.map": "/porfolio/static/css/main.010da98a.chunk.css.map",
+    "static/js/2.fc61d6a9.chunk.js.LICENSE.txt": "/porfolio/static/js/2.fc61d6a9.chunk.js.LICENSE.txt",
+    "static/media/Navigation.css": "/porfolio/static/media/Agustina.320d237b.otf",
+    "static/media/Toronto-Dominion_Bank_logo.3fa0d737.svg": "/porfolio/static/media/Toronto-Dominion_Bank_logo.3fa0d737.svg",
+    "static/media/font-awesome.min.css": "/porfolio/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/nucleo.css": "/porfolio/static/media/nucleo-icons.d6a66724.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b6795ea.js",
+    "static/js/2.fc61d6a9.chunk.js",
+    "static/css/main.010da98a.chunk.css",
+    "static/js/main.54981089.chunk.js"
+  ]
+}
