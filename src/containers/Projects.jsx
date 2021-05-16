@@ -6,7 +6,7 @@ import {
     Row,
 } from "reactstrap";
 import ProjectsCard from "../components/ProjectsCard";
-import { Fade } from 'react-reveal';
+// import { Fade } from 'react-reveal';
 
 const Projects = () => {
     return ( 
