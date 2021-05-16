@@ -124,6 +124,10 @@ export const skillsSection = {
         fontAwesomeClassname: 'simple-icons:keras',
       },
       {
+        skillName: 'Selenium',
+        fontAwesomeClassname: 'logos:selenium',
+      },
+      {
         skillName: 'Spring-Boot',
         fontAwesomeClassname: 'bx:bxl-spring-boot',
       },
