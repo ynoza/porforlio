@@ -157,7 +157,7 @@ export const SkillBars = [
 export const educationInfo = [
     {
       schoolName: 'University of Waterloo',
-      subHeader: 'Bachelors of Computer Science',
+      subHeader: 'Bachelors of Computer Science - Software Engineering',
       duration: 'September 2018 - April 2023',
       desc: 'GPA: 3.9, Courses in:',
       descBullets: [
@@ -195,12 +195,12 @@ export const experience = [
   },
   {
     role: 'Software Engineer',
-    company: 'QNX Software Systems - Blackberry Limited',
+    company: 'QNX - Blackberry Limited',
     companylogo: bblogo,
     date: 'January 2020 – April 2020',
     desc: 'Developed & Designed a REST API reservation system in Django and a toolchain API to access the system through the command line.',
     descBullets: [
-      'Python, Javascript, C, SQL, Bash',
+      'Python, Javascript, C, SQL, Bash, QNX',
       'Django',
       'Docker',
       'Git, Jira, Confluence'
