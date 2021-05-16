@@ -17,9 +17,9 @@ const ProjectsCard = ({data}) => {
             <CardBody className="text-darker">
                 <div className="d-flex px-3">
                 <div className="pl-4">
-                    <h3 className="text-default text-center">
+                    <h4 className="text-default text-center" style={{fontWeight: "bold"}}>
                         {data.name}
-                    </h3>
+                    </h4>
                     { data.logo ? <img src ={data.logo} className="mb-4 mt-4 img-center img-fluid shadow-lg" style={{ width: "350px" }} top alt=""/> : null }
                     <h7 className="description mt-3">
                         {data.desc}
