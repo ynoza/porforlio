@@ -10,9 +10,9 @@ import { Fade } from 'react-reveal';
 
 const Projects = () => {
     return ( 
-        <section className="section section-lg">
+        <section className="section bg-gradient-darker section-lg">
             <Container>
-              <Fade bottom duration={1000} distance="40px">
+              {/* <Fade bottom duration={1000} distance="40px"> */}
               <div className="d-flex p-4">
                     <div>
                         <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
@@ -30,7 +30,7 @@ const Projects = () => {
                         })
                     }
                 </Row>
-              </Fade>
+              {/* </Fade> */}
             </Container>
             <div className="separator separator-bottom separator-skew zindex-100">
               <svg
