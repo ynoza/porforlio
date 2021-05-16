@@ -246,6 +246,40 @@ export const projects = [
     }
   },
   {
+    name: "covidFree",
+    desc: "A Dashboard that allows employers to monitor a given employees temperature fluctuations and determine whether or not they pose a threat to anyone's wellbeing (as a result of covid-19). It was designed to be integrated into day to day lives by being able to collect temperature data in a seamless manner, through devices such as an AirPod, which could track your temperature effortlessly while you're listening to your favorite song.",
+    stack: "Firebase, AWS, Raspberry Pi, React, JavaScript",
+    logo: covidFree,
+    link: {
+      name: "covidFree",
+      url: "https://ynoza.github.io/covidFree/"
+    },
+    github: {
+      name: "Github",
+      url: "https://github.com/ynoza/covidFree/"
+    }
+  },
+  {
+    name: "2048",
+    desc: "A modified version of 2048 with themed gif tiles and easier Gameplay. Uses various OOP strategies like Decorator and Observer.",
+    stack: "Java",
+    logo: twentyfourtyeightimg,
+    github: {
+      name: "Github",
+      url: "https://github.com/ynoza/2048-Applet"
+    }
+  },
+  {
+    name: "Traffic Computer Vision",
+    desc: "This project creates a model using neural network layers to distinguish and identify street signs. To do this, the project took use of the German Traffic Sign Recognition Benchmark, which contains over 150,000 images of 43 common street signs. In the end it was able to distingush signs with 98% accuracy.",
+    stack: "Python, TensorFlow, Keras, scikit-learn",
+    logo: traf,
+    github: {
+      name: "Github",
+      url: "https://github.com/ynoza/Traffic"
+    }
+  },
+  {
     name: "Software For Love (SFL)",
     desc: "SFL in a non-profit organization that helps local businesses with thier software needs in exchange for charitable donations. Here's SFL's website and Ubionic's website for which I was the lead developer.",
     stack: "Netlify, React, JavaScript",
@@ -264,30 +298,6 @@ export const projects = [
     }
   },
   {
-    name: "covidFree",
-    desc: "A Dashboard that allows employers to monitor a given employees temperature fluctuations and determine whether or not they pose a threat to anyone's wellbeing (as a result of covid-19). It was designed to be integrated into day to day lives by being able to collect temperature data in a seamless manner, through devices such as an AirPod, which could track your temperature effortlessly while you're listening to your favorite song.",
-    stack: "Firebase, AWS, Raspberry Pi, React, JavaScript",
-    logo: covidFree,
-    link: {
-      name: "covidFree",
-      url: "https://ynoza.github.io/covidFree/"
-    },
-    github: {
-      name: "Github",
-      url: "https://github.com/ynoza/covidFree/"
-    }
-  },
-  {
-    name: "NLP Question Answerer",
-    desc: "A Question Answering system based on inverse document frequency similar to asking Siri a question, but limited to the documents given to determine answers.",
-    stack: "Python, IDF",
-    logo: nlp,
-    github: {
-      name: "Github",
-      url: "https://github.com/ynoza/Question-Answering"
-    }
-  },
-  {
     name: "Interactive Website",
     desc: "My old Portfolio! I tried having a little bit of fun with it. There's some mystic gold interactive-snow falling from the 'sky' onto 'The Vessel' just how I remember it.",
     stack: "JavaScript, HTML5, CSS",
@@ -302,23 +312,13 @@ export const projects = [
     }
   },
   {
-    name: "2048",
-    desc: "A modified version of 2048 with themed gif tiles and easier Gameplay.",
-    stack: "Java",
-    logo: twentyfourtyeightimg,
+    name: "NLP Question Answerer",
+    desc: "A Question Answering system based on inverse document frequency similar to asking Siri a question, but limited to the documents given to determine answers.",
+    stack: "Python, IDF",
+    logo: nlp,
     github: {
       name: "Github",
-      url: "https://github.com/ynoza/2048-Applet"
-    }
-  },
-  {
-    name: "Traffic Computer Vision",
-    desc: "This project creates a model using neural network layers to distinguish and identify street signs. To do this, the project took use of the German Traffic Sign Recognition Benchmark, which contains over 150,000 images of 43 common street signs. In the end it was able to distingush signs with 98% accuracy.",
-    stack: "Python, TensorFlow, Keras, scikit-learn",
-    logo: traf,
-    github: {
-      name: "Github",
-      url: "https://github.com/ynoza/Traffic"
+      url: "https://github.com/ynoza/Question-Answering"
     }
   },
   {
