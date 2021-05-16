@@ -160,6 +160,7 @@ export const educationInfo = [
       subHeader: 'Bachelors of Computer Science - Software Engineering',
       duration: 'September 2018 - April 2023',
       desc: 'GPA: 3.9, Courses in:',
+      outerLink: 'https://uwaterloo.ca/',
       descBullets: [
         'Data Structures, Algorithms, Object-Oriented Programming, UI, AI, Databases',
         'Sequential Programs, Software Architecture, OS',
@@ -171,6 +172,7 @@ export const educationInfo = [
       subHeader: 'Bachelors of Business Administration - Finance',
       duration: 'September 2018 - April 2023',
       desc: 'GPA: 11/12, Courses in:',
+      outerLink: 'https://www.wlu.ca/programs/business-and-economics/undergraduate/business-administration-bba/index.html',
       descBullets: [
         "Financial Management, Accounting",
         'Microeconomics, Macroeconomics, Entrepreneurship',

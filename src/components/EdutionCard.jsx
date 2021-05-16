@@ -15,9 +15,11 @@ const EdutionCard = ({education}) => {
                 <CardBody>
                     <div className="d-flex px-3">
                     <div className="pl-4">
-                        <h4 className="text-default">
-                            {education.schoolName}
-                        </h4>
+                        <a href={education.outerLink}>
+                            <h4 className="text-default">
+                                {education.schoolName}
+                            </h4>
+                        </a>
                         <h5 className="text-darker">
                             {education.subHeader}
                         </h5>
