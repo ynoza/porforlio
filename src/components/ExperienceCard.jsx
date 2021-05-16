@@ -35,7 +35,9 @@ const ExperienceCard = ({data}) => {
                     <h5 className="text-white">{data.company}</h5>
                 </CardHeader>
                 <CardBody className="py-5 text-darker">
-                    <img ref={imgRef} className=" bg-white rounded-circle mb-3 img-center img-fluid shadow-lg " top src={data.companylogo} style={{ width: "100px" }} onLoad={() => getColorArrays()} alt=""/>
+                    <a href={data.outerLink}>
+                        <img ref={imgRef} className=" bg-white rounded-circle mb-3 img-center img-fluid shadow-lg " top src={data.companylogo} style={{ width: "100px" }} onLoad={() => getColorArrays()} alt=""/>
+                    </a>
                     <CardTitle tag="h4">{data.role}</CardTitle>
                     <CardSubtitle tag="h6">{data.date}</CardSubtitle>
                     <CardText className="my-3 text-left">

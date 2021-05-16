@@ -186,6 +186,7 @@ export const experience = [
     companylogo: mdalogo,
     date: 'January 2021 – April 2021',
     desc: 'Worked on the TRITON Project, a real time tracking & management software for ships and other vessels, for NATO.',
+    outerLink: 'https://mda.space/',
     descBullets: [
       'Typescript, Java',
       'Angular, Nodejs, Spring Boot, Microservices',
@@ -199,6 +200,7 @@ export const experience = [
     companylogo: bblogo,
     date: 'January 2020 – April 2020',
     desc: 'Developed & Designed a REST API reservation system in Django and a toolchain API to access the system through the command line.',
+    outerLink: 'https://blackberry.qnx.com/en',
     descBullets: [
       'Python, Javascript, C, SQL, Bash, QNX',
       'Django',
@@ -212,6 +214,7 @@ export const experience = [
     companylogo: tdlogo,
     date: 'May 2019 – August 2019',
     desc: 'Automated data scraping in the production environment, batch-job failure detection in the UAT environment, and spreadsheet population, analysis, and deployment.',
+    outerLink: 'https://www.tdsecurities.com/ca/en/home-page',
     descBullets: [
       'Bash, VBA',
       'Excel',
@@ -281,7 +284,7 @@ export const projects = [
   },
   {
     name: "Software For Love (SFL)",
-    desc: "SFL in a non-profit organization that helps local businesses with thier software needs in exchange for charitable donations. Here's SFL's website and Ubionic's website for which I was the lead developer.",
+    desc: "SFL in a non-profit organization that helps local businesses with their software needs in exchange for charitable donations. Here's SFL's website and Ubionic's website for which I was the lead developer.",
     stack: "Netlify, React, JavaScript",
     logo: sfl,
     link: {
