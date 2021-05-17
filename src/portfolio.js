@@ -18,7 +18,7 @@ import resume from './assets/pdf/Resume_Yash_Oza.pdf'
 export const greetings = {
     "name": "Yash Oza",
     "title": "Here's a little bit about me:",
-    "description": "I'm a Fourth year CS/BBA Double Degree student at the University of Waterloo and Wilfrid Laurier University with a passion for Entrepreneurship and an interest in Machine Learning and Full Stack Development. I'm also from Toronto, which means I listen to Drake, love snow (but ironicly count the days for winter to end), and loathe the traffic on the Gardener Express Way.",
+    "description": "I'm a Fourth year CS/BBA Double Degree student at the University of Waterloo and Wilfrid Laurier University with a passion for Entrepreneurship and an interest in Machine Learning and Full Stack Development. I'm also from Toronto, which means I listen to Drake, love snow (but ironically count the days for winter to end), and loathe the traffic on the Gardener Express Way.",
     "resumeLink": resume
 }
 
@@ -142,11 +142,11 @@ export const skillsSection = {
 export const SkillBars = [
     {
       Stack: 'What is Double Degree and how is it possible?', //Insert stack or technology you have experience in
-      progressPercentage: 'The CS/BBA double Degree program allows students to work towards two 4 year degrees simultaneously and finish them together in 5 years. This is able to occur due to a lot of prerequisites overlaping between the degrees, and students taking 6 courses per semester (sometimes 7) as opposed to 4-5.', //Insert relative proficiency in percentage
+      progressPercentage: 'The CS/BBA double Degree program allows students to work towards two 4 year degrees simultaneously and finish them together in 5 years. This is able to occur due to a lot of prerequisites overlapping between the degrees, and students taking 6 courses per semester (sometimes 7) as opposed to 4-5.', //Insert relative proficiency in percentage
     },
     {
       Stack: 'Why 2 degrees?', //Insert stack or technology you have experience in
-      progressPercentage: 'At heart I am a Software Engineer, but I have always appreciated the importance of the internal and external business factors that drive a company. I feel like that knowledge allows me to view things differently and lets me make more informed decisions. Also I one day hope to get into management, and I know a business degree would be crucial for that.'
+      progressPercentage: 'At heart I am a Software Engineer, but I have always appreciated the importance of the internal and external business factors that drive a company. I feel like that knowledge allows me to view things differently and lets me make more informed decisions. Also, I one day hope to get into management, and I know a business degree would be crucial for that.'
     },
     {
       Stack: 'What do you like to do in your free time?',
@@ -208,7 +208,7 @@ export const experience = [
     desc: 'Developed & Designed a REST API reservation system in Django and a toolchain API to access the system through the command line.',
     outerLink: 'https://blackberry.qnx.com/en',
     descBullets: [
-      'Python, Javascript, C, SQL, Bash, QNX',
+      'Python, JavaScript, C, SQL, Bash, QNX',
       'Django',
       'Docker',
       'Git, Jira, Confluence'
@@ -232,7 +232,7 @@ export const experience = [
 export const projects = [
   {
     name: "Picster",
-    desc: "An Image Respository that has a Tensoflow Image Classifier running in the server so that uploaded Images can be auto tagged and searches on the images can be made in real time.",
+    desc: "An Image Repository that has a TensorFlow Image Classifier running in the server so that uploaded Images can be auto tagged and searches on the images can be made in real time.",
     stack: "Nodejs, MySQL, TypeScript, Angular, TensorFlow, JavaScript, Heroku",
     logo: picster,
     link: {
@@ -246,7 +246,7 @@ export const projects = [
   },
   {
     name: "Biquadris",
-    desc: "Biquadris, is a Latinization of the game Tetris. In this case, it is expanded for a two player competition. The game has been designed to accomodate for various levels of difficulty and speed.",
+    desc: "Biquadris, is a Latinization of the game Tetris. In this case, it is expanded for a two player competition. The game has been designed to accommodate for various levels of difficulty and speed.",
     stack: "C++, Xming",
     logo: biquad,
     github: {
@@ -342,7 +342,7 @@ export const projects = [
   },
   {
     name: "Leetcode",
-    desc: "Competitive programming is one of my more recent hobbies that I got into Feburary 2021 (over the lockdown). I never miss the daily challenge! The picture is of April 2021.",
+    desc: "Competitive programming is one of my more recent hobbies that I got into February 2021 (over the lockdown). I never miss the daily challenge! The picture is of April 2021.",
     stack: "Python, C++, Java, TypeScript",
     logo: leetcode,
     link: {
