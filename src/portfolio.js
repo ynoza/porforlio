@@ -142,11 +142,11 @@ export const skillsSection = {
 export const SkillBars = [
     {
       Stack: 'What is Double Degree and how is it possible?', //Insert stack or technology you have experience in
-      progressPercentage: 'The CS/BBA double Degree program allows students to work towards two 4 year degrees simultaneously and finish them together in 5 years. This is able to occur due to a lot of prerequisites overlapping between the degrees, and students taking 6 courses per semester (sometimes 7) as opposed to 4-5.', //Insert relative proficiency in percentage
+      progressPercentage: 'The CS/BBA double Degree program allows students to work towards two 4 year degrees simultaneously, finishing them together in 5 years. This is facilitated by a lot of overlapping prerequisites between the degrees and overloading terms by taking 6 courses per semester (sometimes 7) as opposed to 4-5.', //Insert relative proficiency in percentage
     },
     {
       Stack: 'Why 2 degrees?', //Insert stack or technology you have experience in
-      progressPercentage: 'At heart I am a Software Engineer, but I have always appreciated the importance of the internal and external business factors that drive a company. I feel like that knowledge allows me to view things differently and lets me make more informed decisions. Also, I one day hope to get into management, and I know a business degree would be crucial for that.'
+      progressPercentage: 'At heart I am a Software Engineer, but I have always appreciated the importance of the internal and external business factors that drive a company. I feel like that knowledge allows me to better understand requirements and develop optimal implementations. Also, I one day hope to get into management, and I know a business degree would be crucial for that.'
     },
     {
       Stack: 'What do you like to do in your free time?',
