@@ -18,7 +18,7 @@ import resume from './assets/pdf/Resume_Yash_Oza.pdf'
 export const greetings = {
     "name": "Yash Oza",
     "title": "Here's a little bit about me:",
-    "description": "I'm a Fourth year CS/BBA Double Degree student at the University of Waterloo and Wilfrid Laurier University with a passion for Entrepreneurship and an interest in Machine Learning and Full Stack Development. I'm also from Toronto, which means I listen to Drake, love snow (but ironically count the days for winter to end), and loathe the traffic on the Gardener Express Way.",
+    "description": "I'm a Fourth year CS/BBA Double Degree student at the University of Waterloo and Wilfrid Laurier University with a passion for Entrepreneurship and an interest in Machine Learning and Full Stack Development. I'm also from Toronto, which is enforced by the fact that I listen to Drake, love snow, and loathe the traffic on the Gardener Express Way. I'm currently seeking a Winter 2022 SWE Internship, feel free to email me if you have any questions!",
     "resumeLink": resume
 }
 
