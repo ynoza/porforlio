@@ -167,15 +167,15 @@ export const educationInfo = [
       outerLink: 'https://uwaterloo.ca/',
       descBullets: [
         'Data Structures, Algorithms, Object-Oriented Programming, UI, AI, Databases',
-        'Sequential Programs, Software Architecture, OS',
-        'Graph Theory, Combinatorics',
+        'Concurrency, Software Architecture, OS',
+        'Big Data, Computations in Computing',
       ]
     },
     {
       schoolName: 'Wilfrid Laurier University',
-      subHeader: 'Bachelors of Business Administration - Finance',
+      subHeader: 'Bachelors of Business Administration - Accounting',
       duration: 'September 2018 - April 2023',
-      desc: 'GPA: 11/12, Courses in:',
+      desc: 'GPA: 10/12, Courses in:',
       outerLink: 'https://www.wlu.ca/programs/business-and-economics/undergraduate/business-administration-bba/index.html',
       descBullets: [
         "Financial Management, Accounting",
@@ -299,7 +299,7 @@ export const projects = [
     },
     secondarylink: {
       name: "Ubionics",
-      url: ""
+      url: "https://www.ctsbionics.com"
     },
     github: {
       name: "Github",
